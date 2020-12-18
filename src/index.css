@@ -1,13 +1,217 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none;
+  color: #606060;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  overflow-y: hidden;
+}
+p {
+  font-size: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ---Scroll--- */
+
+/* width */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #c1c1c1;
+}
+/* Navbar Youtube */ 
+nav {
+  height: 56px;
+  padding: 0px 16px;
+  background-color: #FFFFFF;
+}
+.nav-div-1 {
+  width: 185px;
+  height: 40px;
+}
+.nav-div-1-box-bars{
+  width: 40px;
+  height: 40px;
+  margin: 0px 16px 0px 0px;
+}
+.bars {
+  font-size: 20px;
+  color: #606060;
+}
+.nav-div-1-logo{
+  width: 129px;
+  height: 40px;
+  margin: 0px 0px;
+}
+/* ---------------------------*/
+.nav-div-2 {
+  width: 728px;
+  height: 32px;
+}
+.div-input-search {
+  width: 575px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+.input-navbar {
+  width: 566px;
+  height: 24px;
+  outline: none;
+  border: 0;
+  font-size: 16px !important;
+}
+.button-navbar {
+  width: 65px;
+  height: 32px;
+}
+/* ---------------------------*/
+.nav-div-3 {
+  width: 204px;
+  height: 40px;
+}
+.icon-size-div-3 {
+  font-size: 20px;
+  color: #606060;
+}
+
+/* Left menu */
+.div-box-left-menu {
+  padding-top: 10px;
+  width: 22%;
+  height: 90vh;
+  background-color: #FFFFFF
+}
+.div-inner-left-menu {
+  width: 83%;
+  height: 40px;
+  padding: 0px 24px;
+}
+.div-icon-left-menu {
+  margin: 0px 26px 0px 0px;
+  width: 22.5px;
+  height: 40px;
+}
+.div-title-left-menu {
+  margin: 0px 26px 0px 0px;
+  width: 80%;
+  height: 40px;
+}
+.icons-left-menu {
+  margin: 0px 26px 0px 0px;
+  font-size: 20px;
+  color: #606060
+}
+hr {
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #E5E5E5;
+}
+
+/* Content */
+.div-all-content {
+  width: 100%;
+  height: 90vh;
+  padding-top: 20px;
+}
+.div-box-video {
+  width: 254px;
+  height: 255px;
+  margin-bottom: 45px;
+}
+.div-info-video {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.div-ad-box {
+  width: 52px;
+  height: 14px;
+  margin-right: 10px;
+  padding: 2px 2px;
+  background-color: #FBC02D;
+  border-radius: 2px;
+}
+
+/* Common classes */
+.d-flex {
+  display: flex;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.flex-grap {
+  flex-wrap: wrap;
+}
+.justify-content-sa {
+  justify-content: space-around;
+}
+.justify-content-sbt {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+.margin-auto {
+  margin: auto;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-left {
+  align-items: flex-end;
+}
+.text-align-center {
+  text-align: center;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.ml-2 {
+  margin-left: 2px;
+}
+.ml-3 {
+  margin-left: 3px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.overflow-side-bar {
+  overflow: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+/* Backgrounds */
+.bg-lightgrey {
+  background-color: #F9F9F9;
+}
+.bg-white {
+  background-color: #FFFFFF
 }
